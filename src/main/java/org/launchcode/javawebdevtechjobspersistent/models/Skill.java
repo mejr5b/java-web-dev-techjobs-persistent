@@ -10,6 +10,8 @@ import java.util.List;
 @Entity
 public class Skill extends AbstractEntity {
 
+
+
     @NotBlank(message="Please add a description")
     private String description;
 
