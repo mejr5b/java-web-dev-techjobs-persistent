@@ -11,7 +11,7 @@ import java.util.List;
 @Entity
 public class Employer extends AbstractEntity {
 
-    @OneToMany(mappedBy = "employer")
+    @OneToMany(mappedBy="employer")
     private final List<Job> jobs = new ArrayList<>();
 
     @NotBlank(message = "Location is required")
